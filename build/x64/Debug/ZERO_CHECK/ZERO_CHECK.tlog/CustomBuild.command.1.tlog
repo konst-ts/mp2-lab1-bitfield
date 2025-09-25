@@ -1,0 +1,10 @@
+^C:\USERS\КОСТЯ\MP2-LAB1-BITFIELD\BUILD\CMAKEFILES\D0D7E6FC1EA66E08C5BF3C328408AFE5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Костя/mp2-lab1-bitfield -BC:/Users/Костя/mp2-lab1-bitfield/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Костя/mp2-lab1-bitfield/build/set.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
